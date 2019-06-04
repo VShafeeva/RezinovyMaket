@@ -1,0 +1,85 @@
+body {
+	margin:0;
+	padding:0;
+}
+
+.wrapper {
+	max-width:1200px;
+	margin:0 auto;
+	min-height:inherit;
+	overflow: hidden;
+}
+
+.header {
+	min-height:70px;
+}
+
+.header .wrapper{
+	background:#334500;
+}
+
+.footer {
+	min-height:70px;
+}
+
+.footer .wrapper {
+	background:#acbb7d;
+}
+.content {
+	min-height:1000px;
+	width:70%;
+	float:left;
+	position: relative;
+	background: #cabdac;
+}
+
+.sidebar {
+	min-height:1000px;
+	width:30%;
+	margin-left: 70%;
+	background: #826e5c;
+}
+
+.footer-2 {
+	min-height:50px;
+	clear:right;
+}
+
+.footer-2 .wrapper {
+	background:#334500;
+}
+
+ .box, .link {
+	border:2px solid #000;
+}
+
+.box {
+	width:46%;
+	min-height:360px;
+	margin:15px 1% 15px 2%;
+	float: left;
+	background:#826e5c;
+}
+
+.container, .container-1 {
+	min-height:400px;
+	overflow: hidden;
+	margin: 10px 0 0 0;
+}
+
+.link-box {
+    min-height: 40px;
+	width:30%;
+	position: absolute;
+	right:0%;
+	bottom:1%;
+    overflow: hidden;
+}
+
+.link {
+	display: inline-block;
+	width: calc(50% - 28px);
+	min-height: 30px;
+	margin:10px;
+	background:#826e5c;
+}
